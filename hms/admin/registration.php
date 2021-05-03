@@ -78,7 +78,7 @@ if($query)
 								<div class="clip-radio radio-primary">
 									<input type="radio" id="rg-female" name="gender" value="female" >
 									<label for="rg-female">
-										Hembra
+										Femenino
 
 									</label>
 									<input type="radio" id="rg-male" name="gender" value="male">
