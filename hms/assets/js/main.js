@@ -1,4 +1,15 @@
 'use strict';
+var map = L.map('mape').setView([19.400918897357506, -99.20362814255714], 15);
+
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+   		 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(map);
+
+L.marker([19.400918897357506, -99.20362814255714]).addTo(map)
+    .bindPopup('Dr. Adrian Murillo Zolezzi <br> Calle Sur 132 108, Las Américas, Álvaro Obregón, 01120 Ciudad de México, CDMX')
+    .openPopup();
+	$(".current-year").text((new Date()).getFullYear());
+
 var Main = function() {
 	var $html = $('html'), $win = $(window), wrap = $('.app-aside'), MEDIAQUERY = {}, app = $('#app');
 
@@ -8,7 +19,8 @@ var Main = function() {
 		tablet : 768,
 		mobile : 480
 	};
-	$(".current-year").text((new Date()).getFullYear());
+
+
 	//sidebar
 	var sidebarHandler = function() {
 		var eventObject = isTouch() ? 'click' : 'mouseenter', elem = $('#sidebar'), ul = "", menuTitle, _this, sidebarMobileToggler = $('.sidebar-mobile-toggler'), $winOffsetTop = 0, $winScrollTop = 0, $appWidth;
