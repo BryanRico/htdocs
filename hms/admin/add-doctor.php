@@ -174,7 +174,7 @@ while($row=mysqli_fetch_array($ret))
 																Confirmar Contraseña
 
 															</label>
-									<input type="password" name="cfpass" class="form-control"  placeholder="Confirm Password" required="required">
+									<input type="password" name="cfpass" class="form-control"  placeholder="Confirmar contraseña" required="required">
 														</div>
 														
 														

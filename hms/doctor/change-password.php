@@ -124,7 +124,7 @@ return true;
 															<label for="exampleInputEmail1">
 																contraseña actual
 															</label>
-							<input type="password" name="cpass" class="form-control"  placeholder="Enter Current Password">
+							<input type="password" name="cpass" class="form-control"  placeholder="Contraseña actual">
 														</div>
 														<div class="form-group">
 															<label for="exampleInputPassword1">
