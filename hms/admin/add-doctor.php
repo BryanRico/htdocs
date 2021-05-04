@@ -126,7 +126,7 @@ while($row=mysqli_fetch_array($ret))
 																 Nombre del doctor
 
 															</label>
-					<input type="text" name="docname" class="form-control"  placeholder="Enter Doctor Name">
+					<input type="text" name="docname" class="form-control"  placeholder="Ingresar nombre de doctor">
 														</div>
 
 
@@ -135,27 +135,27 @@ while($row=mysqli_fetch_array($ret))
 																 Dirección clinica de Doctor 
 
 															</label>
-					<textarea name="clinicaddress" class="form-control"  placeholder="Enter Doctor Clinic Address"></textarea>
+					<textarea name="clinicaddress" class="form-control"  placeholder="Ingresar dirección de clínica"></textarea>
 														</div>
 <div class="form-group">
 															<label for="fess">
 																 Honorarios de consultoría médica
 															</label>
-					<input type="text" name="docfees" class="form-control"  placeholder="Enter Doctor Consultancy Fees">
+					<input type="text" name="docfees" class="form-control"  placeholder="Ingrese la tarifa">
 														</div>
 	
 <div class="form-group">
 									<label for="fess">
 																		Nro contacto doctor
 															</label>
-					<input type="text" name="doccontact" class="form-control"  placeholder="Enter Doctor Contact no">
+					<input type="text" name="doccontact" class="form-control"  placeholder="Ingresar número de contacto">
 														</div>
 
 <div class="form-group">
 									<label for="fess">
 																 Doctor Email
 															</label>
-					<input type="email" name="docemail" class="form-control"  placeholder="Enter Doctor Email id">
+					<input type="email" name="docemail" class="form-control"  placeholder="Ingresar correo">
 														</div>
 
 
@@ -174,7 +174,7 @@ while($row=mysqli_fetch_array($ret))
 																Confirmar Contraseña
 
 															</label>
-									<input type="password" name="cfpass" class="form-control"  placeholder="Confirm Password" required="required">
+									<input type="password" name="cfpass" class="form-control"  placeholder="Confirmar contraseña" required="required">
 														</div>
 														
 														

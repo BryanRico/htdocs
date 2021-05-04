@@ -65,13 +65,13 @@ if($query)
 
 							</p>
 							<div class="form-group">
-								<input type="text" class="form-control" name="full_name" placeholder="Full Name" required>
+								<input type="text" class="form-control" name="full_name" placeholder="Nombre Completo" required>
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control" name="address" placeholder="Address" required>
+								<input type="text" class="form-control" name="address" placeholder="Dirección" required>
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control" name="city" placeholder="City" required>
+								<input type="text" class="form-control" name="city" placeholder="Ciudad" required>
 							</div>
 							<div class="form-group">
 								<label class="block">
@@ -104,7 +104,7 @@ Ingrese los detalles de su cuenta a continuación:
 							</div>
 							<div class="form-group">
 								<span class="input-icon">
-									<input type="password" class="form-control" name="password_again" placeholder="Password Again" required>
+									<input type="password" class="form-control" name="password_again" placeholder="Confirmación password" required>
 									<i class="fa fa-lock"></i> </span>
 							</div>
 							<div class="form-group">

@@ -4,7 +4,7 @@ session_start();
 include('include/config.php');
 include('include/checklogin.php');
 check_login();
-date_default_timezone_set('Asia/Kolkata');// change according timezone
+date_default_timezone_set('America/Mexico_City');// change according timezone
 $currentTime = date( 'd-m-Y h:i:s A', time () );
 if(isset($_POST['submit']))
 {
@@ -125,7 +125,7 @@ return true;
 															<label for="exampleInputEmail1">
 																contraseña actual
 															</label>
-							<input type="password" name="cpass" class="form-control"  placeholder="Enter Current Password">
+							<input type="password" name="cpass" class="form-control"  placeholder="Contraseña actual">
 														</div>
 														<div class="form-group">
 															<label for="exampleInputPassword1">

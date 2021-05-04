@@ -5,7 +5,7 @@ include('include/config.php');
 include('include/checklogin.php');
 check_login();
 $id=intval($_GET['id']);// get value
-date_default_timezone_set('Asia/Kolkata');// change according timezone
+date_default_timezone_set('America/Mexico_City');// change according timezone
 $currentTime = date( 'd-m-Y h:i:s A', time () );
 if(isset($_POST['submit']))
 {
