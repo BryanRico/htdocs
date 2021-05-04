@@ -1,14 +1,14 @@
 <?php error_reporting(0);?>
 <header class="navbar navbar-default navbar-static-top">
 					<!-- start: NAVBAR HEADER -->
-					<div class="navbar-header">
+					<div class="navbar-header" style="height: 100px">
 						<a href="#" class="sidebar-mobile-toggler pull-left hidden-md hidden-lg" class="btn btn-navbar sidebar-toggle" data-toggle-class="app-slide-off" data-toggle-target="#app" data-toggle-click-outside="#sidebar">
 							<i class="ti-align-justify"></i>
 						</a>
-						<a class="navbar-brand" href="#">
-							<h2 style="padding-top:2% ">SaveDoctor</h2>
+						<a class="" href="#">
+							<img src="../../images/SaveDoctorLogoMenu-SBG.png" height="150px" style="margin: -35px 0px 0px 25px"/>
 						</a>
-						<a href="#" class="sidebar-toggler pull-right visible-md visible-lg" data-toggle-class="app-sidebar-closed" data-toggle-target="#app">
+						<a href="#" class="sidebar-toggler pull-right visible-md visible-lg" data-toggle-class="app-sidebar-closed" data-toggle-target="">
 							<i class="ti-align-justify"></i>
 						</a>
 						<a class="pull-right menu-toggler visible-xs-block" id="menu-toggler" data-toggle="collapse" href=".navbar-collapse">
