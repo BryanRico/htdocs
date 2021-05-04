@@ -88,7 +88,7 @@ if(isset($_GET['del']))
 															<label for="exampleInputEmail1">
 																Especialización médica
 															</label>
-							<input type="text" name="doctorspecilization" class="form-control"  placeholder="Enter Doctor Specialization">
+							<input type="text" name="doctorspecilization" class="form-control"  placeholder="Ingresar especialización del doctor">
 														</div>
 												
 														
